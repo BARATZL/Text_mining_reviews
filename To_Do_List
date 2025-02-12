@@ -1,0 +1,29 @@
+- Read in json files ✅
+- preprocess/cleaning
+- EDA
+- one method/analysis
+- updated report
+
+
+
+** February 12th - Barrett to Shreya ** 
+Hi Shreya! Here is what I did today for the project:
+
+- Created a virtual instance with a beefier RAM to process our larger files.
+    * This should make it easier to review the reviews and users files.
+- Converted .json to .parquet files.
+    * .parquet files are a more efficient way of storing data. We got the review file size cut in half(!!!). From now on, use pd.read_parquet("filepath")
+      to read user and review files into dataframes.
+    * business file is still a .json since it small enough to process as a .json. For business.json, use pd.read_json("filepath", lines = True).
+- Removed smaller virtual machine to reduce confusion.
+
+Here is what can be done next:
+
+- Checking null values
+- Determining if subsetting is needed or if we can proceed with entire contents of files
+- EDA things like average length of text in review per business type
+
+Our work is contained in 820-process.ipynb on the VM. Once you finish your contributions, download the file and push the file to this repo. 
+Don't forget to stop the VM once you're done!
+
+** February 13th - Shreya to Aryan **
