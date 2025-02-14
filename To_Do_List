@@ -1,6 +1,6 @@
 - Read in json files ✅
-- preprocess/cleaning
-- EDA
+- preprocess/cleaning ✅
+- EDA ✅
 - one method/analysis
 - updated report
 
@@ -49,3 +49,29 @@ I think going forward you could do the following:
 - if you're really zooming through all of this and feel like you have a lot of time, maybe starting with topic modeling on the reviews.
 
 ** February 14th - Aryan to Manyi **
+Hi Manyi, here's what all I did today - 
+- null values exist in business data frame, in three columns - attributes, categories and hours. Hours are not provided not just for businesess that 
+are closed but also for ones that are still open
+- I believe we can leave the null values as it is as these are all categorical columns and hence we cannot use any statstical measure to replace it with,
+also I think that replacing the nulls without "Unknown" would affect our techniques like one hot encoding
+- merged_df also has a few null values but I dont think we really need those columns 
+- Created a graph for distribution of star ratings amongst the reviews dataset to get a better understanding of most dished out ratings by users
+- Added a table for the 10 most reviews businesses 
+- Added grpah for distribution of business ratings in top 10 cities 
+- Added a heatmap for only numeric values in the merged_df 
+- I got the code running for the most common words used but I think its not really usefull, here are the top 5 results:
+
+Word, Frequency
+0, the, 36711872
+1, and, 26130927
+2, i, 18989680
+3, a, 18805999
+4, to, 17718274
+5, was, 13446562
+
+
+
+Things that can be done next:
+1. Choose which EDA graphs to keep which are most relevant to our project, not sure if we need this many 
+2. See if the most common words code can be improved in any way to make it more relevant or simply delete it
+3. Start with non-dimensioanlity reduction and clustering algorithms 
