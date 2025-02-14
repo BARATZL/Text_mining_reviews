@@ -27,3 +27,8 @@ Our work is contained in 820-process.ipynb on the VM. Once you finish your contr
 Don't forget to stop the VM once you're done!
 
 ** February 13th - Shreya to Aryan **
+things i did:
+- checked for null values. only the business file had null values in two columns (attributes, hours). 
+   * i am still unsure about how we should proceed with dealing with these because business is a secondary file for our analysis. 
+- subsetting doesn't seem to be necessary. all the files are running properly and quickly so far.
+- EDA: 
