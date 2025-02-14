@@ -27,8 +27,25 @@ Our work is contained in 820-process.ipynb on the VM. Once you finish your contr
 Don't forget to stop the VM once you're done!
 
 ** February 13th - Shreya to Aryan **
-things i did:
+
+Hey Aryan, here's the things i did so far!
+
 - checked for null values. only the business file had null values in two columns (attributes, hours). 
    * i am still unsure about how we should proceed with dealing with these because business is a secondary file for our analysis. 
 - subsetting doesn't seem to be necessary. all the files are running properly and quickly so far.
-- EDA: 
+- merged review and users files on user_id
+- EDA:
+   * checked the average length of the review texts
+   * created a couple plots of different relevant relationships
+   * attempted to find the most common words used in the reviews, which crashed the kernel multiple times (please see if you can figure it out)
+   * found the top 10 users (number can be changed) by number of reviews.
+   * distribution of the frequency of stars
+   * scatterplot about the r/s b/w review length and voted useful.
+
+I think going forward you could do the following: 
+- trying to see how to deal with the null values in business that makes sense for our project. we can discuss this too!
+- figuring out how to get the code running for the most common words used in reviews.
+- any further EDA you think is necessary
+- if you're really zooming through all of this and feel like you have a lot of time, maybe starting with topic modeling on the reviews.
+
+** February 14th - Aryan to Manyi **
