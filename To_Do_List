@@ -74,4 +74,4 @@ Word, Frequency
 Things that can be done next:
 1. Choose which EDA graphs to keep which are most relevant to our project, not sure if we need this many 
 2. See if the most common words code can be improved in any way to make it more relevant or simply delete it
-3. Start with non-dimensioanlity reduction and clustering algorithms 
+3. Start with non-dimensionality reduction and clustering algorithms 
