@@ -55,9 +55,9 @@ are closed but also for ones that are still open
 - I believe we can leave the null values as it is as these are all categorical columns and hence we cannot use any statstical measure to replace it with,
 also I think that replacing the nulls without "Unknown" would affect our techniques like one hot encoding
 - merged_df also has a few null values but I dont think we really need those columns 
-- Created a graph for distribution of star ratings amongst the reviews dataset to get a better understanding of most dished out ratings by users
-- Added a table for the 10 most reviews businesses 
-- Added grpah for distribution of business ratings in top 10 cities 
+- Created a graph for the distribution of star ratings amongst the reviews dataset to get a better understanding of most dished out ratings by users
+- Added a table for the 10 most reviewed businesses 
+- Added graph for distribution of business ratings in top 10 cities 
 - Added a heatmap for only numeric values in the merged_df 
 - I got the code running for the most common words used but I think its not really usefull, here are the top 5 results:
 
@@ -73,5 +73,25 @@ Word, Frequency
 
 Things that can be done next:
 1. Choose which EDA graphs to keep which are most relevant to our project, not sure if we need this many 
-2. See if the most common words code can be improved in any way to make it more relevant or simply delete it
+2. See if the most common word code can be improved in any way to make it more relevant or simply delete it
 3. Start with non-dimensionality reduction and clustering algorithms 
+
+
+** February 15th - Manyi to Shreya **
+Hi Shreya, here's what I did today -
+- Use NLP methods to figure out the most common word, (a method the professor will cover in the next class, but he mentioned the principle in the last class, 
+and I use the code in his hands-on notebook), though I used some packages like Stopword and Punkt to improve the performance of the result, I don't think the result is 
+meaningful enough to support our analysis.
+- Use Kmeans to do the initial clustering without dimensionality reduction
+- Try PCA to do dimensionality reduction, and identify 6 main components that can explain 85%
+- Use K-means to do the clustering based on PCA 
+- Try to use UMAP, but it seems the machine cannot handle it, and crash repeatedly.
+
+
+Things that can be done next:
+1. The Silhouette Plot I plot based on the initial dataset or based on the dataset that I use dimensionality reduction, it didn't get a good performance,
+try to improve the performance of the clustering.
+2. To see if we can use the UMAP method to get a better performance.
+3. If possible, try to think about how to relate our works to the proposal 
+
+THANK YOU! AND IF HAVE ANY PROBLEM, FEEL FREE TO REACH OUT ANY TIME!!!
