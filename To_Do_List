@@ -79,6 +79,8 @@ Things that can be done next:
 
 ** February 15th - Manyi to Shreya **
 Hi Shreya, here's what I did today -
+- About the EDA, I'm not sure whether our future step will cover ratings distribution, I check all the graphs and I think they still can provide some insight
+so I kept all of them in this stage.
 - Use NLP methods to figure out the most common word, (a method the professor will cover in the next class, but he mentioned the principle in the last class, 
 and I use the code in his hands-on notebook), though I used some packages like Stopword and Punkt to improve the performance of the result, I don't think the result is 
 meaningful enough to support our analysis.
