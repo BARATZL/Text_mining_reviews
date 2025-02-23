@@ -92,7 +92,15 @@ meaningful enough to support our analysis.
 
 Things that can be done next:
 1. Try to improve the performance of the clustering though it has already improved With PCA
-2. To see if we can use the UMAP method to get a better performance.
+2. To see if we can use the UMAP method to perform better.
 3. If possible, try to think about how to relate our works to the proposal 
 
-THANK YOU! AND IF HAVE ANY PROBLEM, FEEL FREE TO REACH OUT ANY TIME!!!
+THANK YOU! AND IF YOU HAVE ANY PROBLEM, FEEL FREE TO REACH OUT ANY TIME!!!
+
+** February 21th - Manyi to Aryan **
+Hi, here's what I did today - (Text mining file)
+- Clean the text with tokenize, stopword, and punctuation methods, then merge the data back
+- Try BoW methods to identify the frequency of words
+
+Things that can be done next:
+1. Try to more methods
