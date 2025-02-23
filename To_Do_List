@@ -2,7 +2,12 @@
 - preprocess/cleaning ✅
 - EDA ✅
 - one method/analysis ✅
-- updated report
+- updated report ✅
+- text mining
+- sentiment analysis
+- clustering
+- similarity summary function
+- final report
 
 
 
@@ -97,10 +102,21 @@ Things that can be done next:
 
 THANK YOU! AND IF YOU HAVE ANY PROBLEM, FEEL FREE TO REACH OUT ANY TIME!!!
 
-** February 21th - Manyi to Aryan **
+** February 21th - Manyi to Barrett **
 Hi, here's what I did today - (Text mining file)
 - Clean the text with tokenize, stopword, and punctuation methods, then merge the data back
 - Try BoW methods to identify the frequency of words
 
 Things that can be done next:
 1. Try to more methods
+
+** February 22nd - Barrett to Aryan **
+Hi Aryan, here's what I did:
+- Reduced .parquet files to be read in to ~relevant~ columns only, for computational efficiency
+- filtered text mining to only reviews regarding cafe businesses, for more targeted sampling.
+- got more targeted tokenization through TweetTokenizer and cafe filtered reviews
+
+To do next:
+1. Applying TF-IDF Vectorization to cafe subset and test clustering effectiveness.
+
+Please don't forget to shut down the VM when finished! Shreya's GCP budget is all out and we switched to a new budget
