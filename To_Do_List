@@ -120,3 +120,14 @@ To do next:
 1. Applying TF-IDF Vectorization to cafe subset and test clustering effectiveness.
 
 Please don't forget to shut down the VM when finished! Shreya's GCP budget is all out and we switched to a new budget
+
+** February 23rd - Aryan to Shreya **
+Hi Shreya, here's what I did:
+- Added the code for checking cosine similarity 
+- Added code to see for euclidian similarity
+- Added codes for TF-IDF
+- Had to sample the dataset to get it work with these three codes as kernel crashed multiple times despite trying alternative methods 
+
+To do next:
+1. All three of these codes keep crashing the kernel, I have tried running them multiple times and some alternative methods on GPT
+but I could not come up with any such method to handle such a large dataframe so see if you could find a way to run them 
