@@ -3,9 +3,9 @@
 - EDA ✅
 - one method/analysis ✅
 - updated report ✅
-- text mining
+- text mining ✅
+- LDA/Topic Modeling
 - sentiment analysis
-- clustering
 - similarity summary function
 - final report
 
@@ -133,3 +133,12 @@ To do next:
 but I could not come up with any such method to handle such a large dataframe so see if you could find a way to run them 
 2. Delete sample rows code 
 3. Filter further in cafes business and move codes to seperate python file with just cafes parquet
+
+** February 24th - Barrett to Shreya **
+Hi Shreya, here's what I did:
+- Adjusted text mining code for clarity and computational efficiency, honed down cafes further
+- began topic modeling process. Perplexity was the measure I found that judges how many components LDA should have, but it seems difficult to interpret. May need further review of LDA documentation.
+- created separate text_mining file for efficiency sake.
+
+To do next:
+Find the optimal number 
