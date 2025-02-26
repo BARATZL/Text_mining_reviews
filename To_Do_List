@@ -142,3 +142,15 @@ Hi Shreya, here's what I did:
 
 To do next:
 Find the optimal number 
+
+** February 25th - Shreya to Arryan **
+Hey Aryan! Here's what I did today:
+- Found the optimal number and trained the LDA model
+- Found the top words per topic
+- Assigned the top topic to each review
+- plotted the topic distribution to see their frequency
+- started topic similarity
+
+To do next: 
+- maybe consider looking at some topic distributions (positive/negative)
+- topic similarity
