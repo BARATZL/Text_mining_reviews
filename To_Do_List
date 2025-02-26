@@ -154,3 +154,13 @@ Hey Aryan! Here's what I did today:
 To do next: 
 - maybe consider looking at some topic distributions (positive/negative)
 - topic similarity
+
+** February 26th - Aryan to Manyi **
+Hi Manyi! Here's what I did today:
+- Filtered for most popular business - Starbucks and re ran codes in text mining file 
+- ran the similarity matrices
+- changed comments according to further filtered dataframe
+- added the codes to check topic similarity between any two reviews
+
+To do next: 
+- sentiment analysis including the positive / negative topic distribution plot 
