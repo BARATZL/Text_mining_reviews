@@ -161,6 +161,7 @@ Hi Manyi! Here's what I did today:
 - ran the similarity matrices
 - changed comments according to further filtered dataframe
 - added the codes to check topic similarity between any two reviews
+- switched to NMF instead of LDA and got better results in terms of distribution between the topics and re ran codes after that
 
 To do next: 
 - sentiment analysis including the positive / negative topic distribution plot 
