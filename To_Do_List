@@ -4,9 +4,9 @@
 - one method/analysis ✅
 - updated report ✅
 - text mining ✅
-- LDA/Topic Modeling
-- sentiment analysis
-- similarity summary function
+- LDA/Topic Modeling ✅
+- sentiment analysis ✅
+- similarity summary function ✅
 - final report
 
 
@@ -166,3 +166,9 @@ Hi Manyi! Here's what I did today:
 To do next: 
 - sentiment analysis including the positive / negative topic distribution plot 
 - see if LDA codes need to be kept or delete otherwise 
+
+** March 1st **
+
+Synthesized code into functions to help produce a relevant review for a user based on inputted preferences.
+
+Last part is the report and adjustments to organization of our code!
